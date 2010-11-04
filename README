@@ -1,0 +1,28 @@
+To use:
+
+1.  Obtain an unlocked GSM phone (ideally quad-band), to ensure the best
+    global romaing capabilities.
+
+2.  Get a SIM card from http://www.gosim.com/
+
+3.  Sign up for Google Voice and get a Google Voice number.
+    http://www.google.com/voice/
+
+4.  Set up a cronjob that will run the enclosed Ruby script every
+    5-10 minutes.  It's what does the forwarding.
+
+5.  Edit the config block at the top of the Ruby script to include 
+    your Google username and password, GOSIM username and password,
+    and GOSIM phone number.
+
+6.  You may need to install Ruby on your server (see your OS vendor
+    for more information).
+
+7.  You will probably also need to install the gvoice-ruby gem.  You 
+    can do this by typing:
+    
+    sudo gem install gvoice-ruby
+
+If you have any questions, E-Mail me at kevin@bombino.org
+
+Enjoy! 
